@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main form{
+    width: 30%;
+    background-color: pink;
+    padding: 20px;
+    /* used to convert edges into curve shape */
+    border-radius: 5px;
+}
+
+label{
+    font-size: 15px;
+}
